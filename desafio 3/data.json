@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "White Shirt",
+    "category": "Shirt",
+    "price": 3000
+  },
+  {
+    "name": "Green Shirt",
+    "category": "Shirt",
+    "price": 3000,
+    "id": 2
+  },
+  {
+    "name": "Air Jordan",
+    "category": "Shoe",
+    "price": 10000,
+    "id": 3
+  },
+  {
+    "name": "Yeezy 350",
+    "category": "Shoe",
+    "price": 15000,
+    "id": 4
+  },
+  {
+    "name": "White Shirt",
+    "category": "Shirt",
+    "price": 800,
+    "id": 5
+  },
+  {
+    "name": "White Shirt",
+    "category": "Shirt",
+    "price": 800,
+    "id": 6
+  },
+  {
+    "name": "Leather Belt",
+    "category": "Belt",
+    "price": 500,
+    "id": 7
+  }
+]
