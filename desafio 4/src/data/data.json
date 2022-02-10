@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Pala",
+    "price": "0",
+    "thumbnail": "http://localhost:8080/img/1644466932275-pala.png"
+  },
+  {
+    "id": 2,
+    "name": "Anibal",
+    "price": "infinito",
+    "thumbnail": "http://localhost:8080/img/1644467023195-anibal.jpg"
+  }
+]
