@@ -1,0 +1,23 @@
+<% if(!products || products<=0){ %>
+    <p>No hay productos por mostrar</p>
+<% }else { %>
+<table>
+    <thead key="thead">
+    <tr key="title">
+        <th>Nombre</th>
+        <th>Precio</th>
+        <th>Imagen</th>
+    </tr>
+    </thead>
+    <tbody key="tbody">
+        <% products.forEach(product=>{ %> 
+            <tr>
+                <td><%= product.name %> </td>
+                <td><%= product.price %> </td>
+                <td><img src=<%= product.thumbnail %> width="40px"></td>
+            </tr>
+        <% }) %> 
+    </tbody>
+</table>
+<button><a href="/">Volver al inicio</a></button>
+<% } %> 

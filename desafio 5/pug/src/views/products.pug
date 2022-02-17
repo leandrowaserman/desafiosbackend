@@ -1,0 +1,15 @@
+html 
+    if products
+        table 
+            thead(key="thead")
+                tr(key="title")
+                    th Nombre 
+                    th Precio 
+                    th Imagen 
+            tbody(key="tbody")
+                each product in products 
+                    tr
+                        td= product.name 
+                        td= product.price 
+                        td 
+                            img(src= product.thumbnail , width="40px")
