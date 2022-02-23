@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Anibal",
+    "price": "infinito",
+    "thumbnail": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/4_avatar-256.png"
+  },
+  {
+    "name": "Leandro",
+    "price": "infinito",
+    "thumbnail": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/4_avatar-256.png",
+    "id": 2
+  },
+  {
+    "name": "Pala",
+    "price": "300",
+    "thumbnail": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/4_avatar-256.png",
+    "id": 3
+  }
+]
