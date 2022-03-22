@@ -1,0 +1,65 @@
+mongo
+
+use ecommerce
+
+db.createCollection("products")
+
+1 y 2)
+
+db.products.insertMany([
+... {name:"pala",price:800}
+... {name:"hacha",price:1200}
+... {name:"martillo",price:350}
+... {name:"destornillador",price:100},
+... {name:"taladro",price:3200},
+... {name:"pico",price:2300},
+... {name:"azada",price:1400},
+... {name:"guadaña",price:2000},
+... {name:"tijeras",price:200},
+... {name:"serrucho",price:4300},
+])
+
+db.createCollection("messages")
+
+db.messages.insertMany([
+...{user:"pedro",info:"hola",timestamp:new Date()},
+...{user:"juan",info:"hola pedro",timestamp:new Date()},
+...{user:"fernando",info:"ey yo tambien estoy",timestamp:new Date()},
+...{user:"agustin",info:"como les va?",timestamp:new Date()},
+...{user:"leandro",info:"chicos, se dan cuenta que somos personajes en una base de datos?",timestamp:new Date()},
+...{user:"german",info:"wow",timestamp:new Date()},
+...{user:"pablo",info:"que locura",timestamp:new Date()},
+...{user:"micaela",info:"me volaste la cabeza",timestamp:new Date()},
+...{user:"patricio",info:"aguante este chat",timestamp:new Date()},
+...{user:"sebastian",info:"albion online es un mmorpg no lineal",timestamp:new Date()}
+])
+
+
+
+3)
+db.products.find()
+
+db.messages.find()
+
+
+4)
+db.products.countDocuments({})
+
+db.messages.countDocuments({})
+
+5)
+
+a) db.products.insertOne({name:"cutter",price:250,stock:60})
+
+
+b) 
+i) db.products.find({price:{$lt:1000}})
+ii) db.products.find({$and:[{price:{$gte:1000}},{price:{$lte:3000}}]})
+iii) db.products.find({price:{$gt:3000}})
+iv) db.products.find().sort({price:1}).limit(1).skip(2)
+
+c)db.products.updateMany({},{$set:{"stock":100}})
+
+d)db.products.updateMany({price:{$gt:4000}},{$set:{"stock":0}})
+
+e)db.products.deleteMany({price:{$lt:1000})
