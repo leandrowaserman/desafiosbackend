@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Leandro Waserman",
+    "username": "Leanwaser",
+    "phone": "111111111",
+    "mail": "leandro@gmail.com",
+    "age": 19
+  },
+  {
+    "name": "Leandro Waserman",
+    "username": "Leanwaser",
+    "phone": "111111111",
+    "mail": "leandro@gmail.com",
+    "age": 19,
+    "id": 2
+  },
+  {
+    "name": "Leandro Waserman",
+    "username": "Leanwaser",
+    "phone": "111111111",
+    "mail": "leandro@gmail.com",
+    "age": 19,
+    "id": 3
+  },
+  {
+    "name": "Leandro Waserman",
+    "username": "Leanwaser",
+    "phone": "111111111",
+    "mail": "leandro@gmail.com",
+    "age": 19,
+    "id": 4
+  }
+]
