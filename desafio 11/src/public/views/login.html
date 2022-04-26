@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section>
+        <a href="http://localhost:8080/">inicio</a>
+        <a href="http://localhost:8080/register">registro</a>
+    </section>
+
+    <h1>Login de Usuario</h1>
+    <h2>Recuerda registrarte en el inicio</h2>
+    <br>
+    <form action="/loginForm" method="post" autocomplete="off">
+        <div>
+            <label for="username">Ingrese su alias</label>
+            <input id="username" type="text" name="username" required>
+            <label for="password">Ingrese su contraseña</label>
+            <input id="password" type="password" name="password" required>
+        </div>
+        <input type="submit">
+    </form>
+</body>
+</html>

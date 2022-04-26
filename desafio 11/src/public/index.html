@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <section>
+        <a href="http://localhost:8080/login">login</a>
+        <a href="http://localhost:8080/logout">logout</a>
+    </section>
     <div class="products">
         <section>
             <h1>Creador de productos</h1>
@@ -25,30 +29,9 @@
             <div id="productsTemplate"></div>
         </section>
     </div>
-
+    <hr>
     <div class="chat">
-        <section>
-            <h2>
-                Registro de Usuarios
-            </h2>
-            <form id="register" class="register">
-                <label>Mail</label>
-                <input name="mail">
-                <label>Nombre</label>
-                <input name="name">
-                <label>Apellido</label>
-                <input name="last_name">
-                <label>Edad</label>
-                <input name="age">
-                <label>Alias</label>
-                <input name="username">
-                <label>Avatar (URL)</label>
-                <input name="avatar">
-                <input type="submit">
-            </form>
-        </section>
         <div>
-            <input id="mailBox" placeholder="users email">
             <input id="chatBox" placeholder="write your message">
             <div id="log"></div>
         </div>

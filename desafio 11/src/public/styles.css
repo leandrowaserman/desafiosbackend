@@ -1,0 +1,30 @@
+#productsTemplate{
+    margin: 40px;
+    margin-left: 200px;
+}
+.register{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+.register input{
+    width: 25%;
+    margin-bottom: 15px;
+}
+.registerTitle{
+    text-align: center;
+    text-decoration: underline;
+}
+.chat{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.products{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    text-align: center;
+}
