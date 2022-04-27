@@ -194,14 +194,20 @@ app.use('/api/products-test', function (req, res){
     }
     res.send(productsTest)
 })
+
+
+app.get('/afuhgaisufbvasfa',(req,res)=>{
+    if(req.session.user) res.send(req.session.user)
+    else res.send("no user found")
+})
 //socket
 io.on('connection',async socket=>{
 
     let products = await ProductService.getAll()
     io.emit('productLog',products)
     let messages = await ChatService.getAll()
-    
     io.emit('chatLog',messages)
+    io.emit('userCheck')
     socket.on('sendProduct',async data=>{
         await ProductService.add(data)
         let products = await ProductService.getAll()

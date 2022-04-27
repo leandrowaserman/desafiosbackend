@@ -34,6 +34,22 @@ socket.on('chatLog',(data)=>{
     })
 })
 
+socket.on('userCheck',()=>{
+    let linksIndex = document.getElementById("linksIndex")
+    fetch('/afuhgaisufbvasfa').then(r=> r.json()).then(data=>{
+        console.log(data)
+        let size = Object.keys(data).length
+        if(!size)return
+        fetch('templates/userconnected.handlebars').then(response=>{
+            return response.text()
+        }).then(template=>{
+            const processedTemplate = Handlebars.compile(template)
+            const html = processedTemplate(data)
+            linksIndex.innerHTML = html
+        })
+    })
+})
+
 productForm.addEventListener('submit',(evt)=>{
     evt.preventDefault();
     let data = new FormData(productForm);
