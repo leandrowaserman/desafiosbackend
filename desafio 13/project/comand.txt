@@ -1,0 +1,16 @@
+-------  PM2 --------
+
+pm2 start app.js --name="servidor 1" --watch -- 8081 cluster  // MODO CLUSTER
+
+pm2 start app.js --name="servidor 1" --watch -- 8081  // MODO FORK
+
+pm2 list // VER TODOS LOS SERVIDORES
+
+------  FOREVER --------
+
+
+forever start app.js 8081 "cluster"  // MODO CLUSTER
+
+forever start app.js 8081  // MODO FORK
+
+forever list // VER TODOS LOS SERVIDORES

@@ -1,0 +1,17 @@
+2022/05/09 00:43:00 [error] 4608#17304: *1 CreateFile() "C:\Users\Lean\Desktop\Coder\Backend\Desafios\desafio 13/html/favicon.ico" failed (2: El sistema no puede encontrar el archivo especificado), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:81", referrer: "http://localhost:81/"
+2022/05/09 00:43:48 [notice] 7884#15260: signal process started
+2022/05/09 01:26:48 [notice] 11184#19848: signal process started
+2022/05/09 03:07:26 [notice] 17212#14928: signal process started
+2022/05/10 01:17:14 [error] 17176#13628: *1 CreateFile() "C:\Users\Lean\Desktop\Coder\Backend\Desafios\desafio 13/html/favicon.ico" failed (2: El sistema no puede encontrar el archivo especificado), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:81", referrer: "http://localhost:81/"
+2022/05/10 01:23:12 [emerg] 14156#22620: unexpected "}" in C:\Users\Lean\Desktop\Coder\Backend\Desafios\desafio 13/conf/nginx.conf:36
+2022/05/10 01:24:10 [emerg] 13752#20848: invalid host in upstream "http://localhost:8081" in C:\Users\Lean\Desktop\Coder\Backend\Desafios\desafio 13/conf/nginx.conf:35
+2022/05/10 01:24:21 [notice] 21072#10308: signal process started
+2022/05/10 01:25:07 [error] 13316#6524: *4 WSARecv() failed (10054: Se ha forzado la interrupción de una conexión existente por el host remoto) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /api/randoms/ HTTP/1.1", upstream: "http://127.0.0.1:8081/api/randoms/", host: "localhost:81"
+2022/05/10 01:25:18 [error] 13316#6524: *4 WSARecv() failed (10054: Se ha forzado la interrupción de una conexión existente por el host remoto) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /api/randoms/ HTTP/1.1", upstream: "http://127.0.0.1:8081/api/randoms/", host: "localhost:81"
+2022/05/10 01:27:23 [notice] 20372#14808: signal process started
+2022/05/10 01:27:45 [notice] 12492#19564: signal process started
+2022/05/10 01:31:44 [notice] 11196#4500: signal process started
+2022/05/10 01:31:56 [error] 16300#16204: *20 WSARecv() failed (10054: Se ha forzado la interrupción de una conexión existente por el host remoto) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /api/randoms/ HTTP/1.1", upstream: "http://127.0.0.1:8082/api/randoms/", host: "localhost:81"
+2022/05/10 01:31:56 [error] 16300#16204: *20 WSARecv() failed (10054: Se ha forzado la interrupción de una conexión existente por el host remoto) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /api/randoms/ HTTP/1.1", upstream: "http://127.0.0.1:8083/api/randoms/", host: "localhost:81"
+2022/05/10 01:31:56 [error] 16300#16204: *20 WSARecv() failed (10054: Se ha forzado la interrupción de una conexión existente por el host remoto) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /api/randoms/ HTTP/1.1", upstream: "http://127.0.0.1:8084/api/randoms/", host: "localhost:81"
+2022/05/10 01:31:56 [error] 16300#16204: *20 WSARecv() failed (10054: Se ha forzado la interrupción de una conexión existente por el host remoto) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /api/randoms/ HTTP/1.1", upstream: "http://127.0.0.1:8085/api/randoms/", host: "localhost:81"
